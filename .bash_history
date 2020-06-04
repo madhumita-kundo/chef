@@ -108,3 +108,29 @@ ls
 tree
 sudo chef-client -z cookbooks/workstation/recipes/setup.rb
 which git
+tree
+git add .
+git status
+git commit -m "apache"
+git push origin master
+ls
+curl localhost
+
+sudo chef-client -z cookbooks/apache/recipes/server.rb
+curl localhost
+vim  cookbooks/apache/recipes/server.rb
+sudo chef-client -z cookbooks/apache/recipes/server.rb
+curl local host
+curl localhost
+git add .
+git status
+git commit -m "corrected https to httpd"
+git push origin master
+ls
+tree
+vi cookbooks/apache/recipes/default.rb
+sudo chef-client -z -r "recipie[apache]"
+sudo chef-client -z -r "recipe[apache]"
+tree
+vi cookbooks/apache/recipes/default.rb
+sudo chef-client -z -r "recipe[apache]"

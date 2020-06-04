@@ -22,24 +22,31 @@
 # Registers:
 
 # File marks:
-'0  15  13  ~/cookbooks/apache/recipes/server.rb
-'1  16  16  ~/cookbooks/apache/recipes/server.rb
-'2  19  0  ~/cookbooks/apache/recipes/server.rb
-'3  1  0  /cookbooks/apache/recipes/server.rb
-'4  1  0  /cookbooks/apache/server.rb
-'5  31  3  ~/cookbooks/apache/recipes/server.rb
-'6  9  7  ~/setup.rb
-'7  2  8  ~/setup.rb
-'8  2  21  ~/hello.rb
+'0  7  11  ~/cookbooks/apache/metadata.rb
+'1  14  19  ~/cookbooks/apache/recipes/server.rb
+'2  1  0  ~/cookbooks/apache/server.rb
+'3  7  23  ~/cookbooks/apache/recipes/default.rb
+'4  18  13  ~/cookbooks/apache/recipes/server.rb
+'5  19  16  ~/cookbooks/apache/recipes/server.rb
+'6  22  0  ~/cookbooks/apache/recipes/server.rb
+'7  1  0  /cookbooks/apache/recipes/server.rb
+'8  1  0  /cookbooks/apache/server.rb
+'9  34  3  ~/cookbooks/apache/recipes/server.rb
 
 # Jumplist (newest first):
--'  15  13  ~/cookbooks/apache/recipes/server.rb
--'  16  0  ~/cookbooks/apache/recipes/server.rb
--'  1  0  ~/cookbooks/apache/recipes/server.rb
+-'  7  11  ~/cookbooks/apache/metadata.rb
+-'  1  0  ~/cookbooks/apache/metadata.rb
+-'  14  19  ~/cookbooks/apache/recipes/server.rb
+-'  18  0  ~/cookbooks/apache/recipes/server.rb
+-'  1  0  ~/cookbooks/apache/server.rb
+-'  7  23  ~/cookbooks/apache/recipes/default.rb
+-'  1  0  ~/cookbooks/apache/recipes/default.rb
 -'  19  0  ~/cookbooks/apache/recipes/server.rb
+-'  1  0  ~/cookbooks/apache/recipes/server.rb
+-'  22  0  ~/cookbooks/apache/recipes/server.rb
 -'  1  0  /cookbooks/apache/recipes/server.rb
 -'  1  0  /cookbooks/apache/server.rb
--'  31  3  ~/cookbooks/apache/recipes/server.rb
+-'  34  3  ~/cookbooks/apache/recipes/server.rb
 -'  9  7  ~/setup.rb
 -'  2  0  ~/setup.rb
 -'  1  0  ~/setup.rb
@@ -126,28 +133,46 @@
 -'  1  0  ~/hello.rb
 -'  2  21  ~/hello.rb
 -'  1  0  ~/hello.rb
--'  2  21  ~/hello.rb
--'  1  0  ~/hello.rb
--'  2  21  ~/hello.rb
--'  7  0  ~/cookbooks/apache/recipes/server.rb
--'  1  0  /cookbooks/apache/recipes/server.rb
 
 # History of marks within files (newest to oldest):
 
+> ~/cookbooks/apache/metadata.rb
+	"	7	11
+	^	7	12
+	.	7	11
+	+	7	11
+
 > ~/cookbooks/apache/recipes/server.rb
-	"	15	13
-	^	15	14
-	.	15	13
-	+	25	34
-	+	26	32
-	+	30	24
-	+	31	2
-	+	19	0
+	"	14	19
+	^	14	20
+	.	14	20
+	+	28	34
+	+	29	32
+	+	33	24
+	+	34	2
+	+	22	0
 	+	12	32
-	+	16	24
-	+	17	2
-	+	16	8
-	+	15	13
+	+	19	24
+	+	20	2
+	+	19	8
+	+	18	13
+	+	13	10
+	+	12	31
+	+	13	33
+	+	12	8
+	+	13	43
+	+	14	30
+	+	13	21
+	+	14	20
+
+> ~/cookbooks/apache/server.rb
+	"	1	0
+
+> ~/cookbooks/apache/recipes/default.rb
+	"	7	23
+	^	7	24
+	.	7	23
+	+	7	23
 
 > /cookbooks/apache/recipes/server.rb
 	"	1	0
