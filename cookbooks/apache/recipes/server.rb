@@ -12,6 +12,6 @@ file '/var/www/html/index.html' do
 content '<h1>Hello, World!</h1>'
 end
 
-service 'https' do
+service 'httpd' do
 action [ :enable, :start]
 end

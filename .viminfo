@@ -22,17 +22,19 @@
 # Registers:
 
 # File marks:
-'0  16  16  ~/cookbooks/apache/recipes/server.rb
-'1  19  0  ~/cookbooks/apache/recipes/server.rb
-'2  1  0  /cookbooks/apache/recipes/server.rb
-'3  1  0  /cookbooks/apache/server.rb
-'4  31  3  ~/cookbooks/apache/recipes/server.rb
-'5  9  7  ~/setup.rb
-'6  2  8  ~/setup.rb
-'7  2  21  ~/hello.rb
+'0  15  13  ~/cookbooks/apache/recipes/server.rb
+'1  16  16  ~/cookbooks/apache/recipes/server.rb
+'2  19  0  ~/cookbooks/apache/recipes/server.rb
+'3  1  0  /cookbooks/apache/recipes/server.rb
+'4  1  0  /cookbooks/apache/server.rb
+'5  31  3  ~/cookbooks/apache/recipes/server.rb
+'6  9  7  ~/setup.rb
+'7  2  8  ~/setup.rb
+'8  2  21  ~/hello.rb
 
 # Jumplist (newest first):
--'  16  16  ~/cookbooks/apache/recipes/server.rb
+-'  15  13  ~/cookbooks/apache/recipes/server.rb
+-'  16  0  ~/cookbooks/apache/recipes/server.rb
 -'  1  0  ~/cookbooks/apache/recipes/server.rb
 -'  19  0  ~/cookbooks/apache/recipes/server.rb
 -'  1  0  /cookbooks/apache/recipes/server.rb
@@ -133,9 +135,9 @@
 # History of marks within files (newest to oldest):
 
 > ~/cookbooks/apache/recipes/server.rb
-	"	16	16
-	^	16	17
-	.	16	8
+	"	15	13
+	^	15	14
+	.	15	13
 	+	25	34
 	+	26	32
 	+	30	24
@@ -145,6 +147,7 @@
 	+	16	24
 	+	17	2
 	+	16	8
+	+	15	13
 
 > /cookbooks/apache/recipes/server.rb
 	"	1	0

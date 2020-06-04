@@ -144,13 +144,13 @@
       },
       "/dev/sda2": {
         "kb_size": "20754432",
-        "kb_used": "3002668",
-        "kb_available": "17751764",
+        "kb_used": "3006048",
+        "kb_available": "17748384",
         "percent_used": "15%",
         "mount": "/",
         "total_inodes": "10382336",
-        "inodes_used": "115151",
-        "inodes_available": "10267185",
+        "inodes_used": "115205",
+        "inodes_available": "10267131",
         "inodes_percent_used": "2%",
         "fs_type": "xfs",
         "mount_options": [
@@ -642,23 +642,23 @@
         "surplus": "0"
       },
       "total": "3621520kB",
-      "free": "2143412kB",
+      "free": "2073436kB",
       "buffers": "3100kB",
-      "cached": "1006088kB",
-      "active": "690632kB",
-      "inactive": "507532kB",
+      "cached": "1016732kB",
+      "active": "711084kB",
+      "inactive": "498176kB",
       "dirty": "12kB",
       "writeback": "0kB",
-      "anon_pages": "189036kB",
-      "mapped": "44356kB",
-      "slab": "176596kB",
-      "slab_reclaimable": "115084kB",
-      "slab_unreclaim": "61512kB",
-      "page_tables": "5352kB",
+      "anon_pages": "189456kB",
+      "mapped": "45884kB",
+      "slab": "232888kB",
+      "slab_reclaimable": "170952kB",
+      "slab_unreclaim": "61936kB",
+      "page_tables": "5384kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "1810760kB",
-      "committed_as": "618636kB",
+      "committed_as": "618576kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "10832kB",
       "vmalloc_chunk": "34359725040kB",
@@ -825,16 +825,16 @@
           "lo": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "0",
-              "packets": "0",
+              "bytes": "480",
+              "packets": "8",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "0",
-              "packets": "0",
+              "bytes": "480",
+              "packets": "8",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -843,16 +843,16 @@
           "eth0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "2625234",
-              "packets": "21305",
+              "bytes": "4980055",
+              "packets": "42814",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "226085826",
-              "packets": "24537",
+              "bytes": "250819931",
+              "packets": "47641",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -872,10 +872,10 @@
     "platform": "centos",
     "platform_version": "7.8.2003",
     "platform_family": "rhel",
-    "uptime_seconds": 10204,
-    "uptime": "2 hours 50 minutes 04 seconds",
-    "idletime_seconds": 9996,
-    "idletime": "2 hours 46 minutes 36 seconds",
+    "uptime_seconds": 45665,
+    "uptime": "12 hours 41 minutes 05 seconds",
+    "idletime_seconds": 45392,
+    "idletime": "12 hours 36 minutes 32 seconds",
     "virtualization": {
       "systems": {
 
@@ -1208,7 +1208,7 @@
       },
       "project": {
         "attributes": {
-          "ssh-keys": "mmkundo2013:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCiRKLxof+qN3WrmycFAeYqLDozsn/VehJ3ly2VyKKcOVLvqc23Xs+nhWGuSBEYEciJOqaueVOMrO5GGIqY6VMa30Ma0bry+I25GsHqNYxmR5hwfhkSzXe8S+mlcxAD0OqHoR7bQKy8OcXaeDviIDKZKzinxaYiDPz+7COIF4sln2bmdYA88OIqI0Em9HMBov1rSv/Jucu0dpDFeQwayDf4nAtMfHSvIk+GySGxorNG0rYQ0F/oMv5gzFWJyOztVrjgCg4Tz5eWE9OSzgxxeoC+Yf4MDoADVZ/KomBStD723xRw7QQ7vm63v4qIVgKY70jX0Xnv+PANvt1TN/ELO57F google-ssh {\"userName\":\"mmkundo2013@gmail.com\",\"expireOn\":\"2020-06-04T01:48:12+0000\"}\nmmkundo2013:ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHjfTr5pf65oTcu9R7zuwTkrBWiBEVsqFmNer+95KLDwd463ZmckXCCGgaMT+fKo7DTcNS8VPQA0Slr5fpFTXI4= google-ssh {\"userName\":\"mmkundo2013@gmail.com\",\"expireOn\":\"2020-06-04T01:48:10+0000\"}\n"
+          "ssh-keys": "mmkundo2013:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAG0MOmd1UbJ5Vi0Klq1kodUGeTIp8lbHKe0jb2qr1Cn2BsI58GDqmk4jQ9/bh6P+v+yUqKUlTPCPzwSf2FnNnH0t/23eyfJB7OsG1grJMPUnS3GlKAAyr88238InN5fxlZeJgNcJR3vDR/p8CcEMAigw7zLiiidrItqvB1n0C5pVC29RkRoaDZwKVTc9IughXT7YJjA8tiwWL6d7ZOeZfgodDB2i8yx3Mbn74VtlCZvNw9MAB+jRvhB5AlQrZQl/SxzQbjBUnQxdNhuOOKNJ2M/Uw5eHJqQlzIXKa8jMDhGAdUcBWu0uXQew37fc85pPHwZDJBKC7C9QQO1+TelaKUk= google-ssh {\"userName\":\"mmkundo2013@gmail.com\",\"expireOn\":\"2020-06-04T11:24:59+0000\"}\nmmkundo2013:ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBG0cIATS5vGvFEMGhnYheE1dTtJCIGodX9Y5Dt/Lk2qmMkButJXxI7EPG7uNxAeZ3I0XgcsbLlXbHy/QVibEiU8= google-ssh {\"userName\":\"mmkundo2013@gmail.com\",\"expireOn\":\"2020-06-04T11:24:49+0000\"}\n"
         },
         "numericProjectId": 538520766460,
         "projectId": "nth-skyline-271419"
@@ -1707,12 +1707,12 @@
         },
         "/dev/sda2": {
           "kb_size": "20754432",
-          "kb_used": "3002668",
-          "kb_available": "17751764",
+          "kb_used": "3006048",
+          "kb_available": "17748384",
           "percent_used": "15%",
           "total_inodes": "10382336",
-          "inodes_used": "115151",
-          "inodes_available": "10267185",
+          "inodes_used": "115205",
+          "inodes_available": "10267131",
           "inodes_percent_used": "2%",
           "fs_type": "xfs",
           "mount_options": [
@@ -2029,12 +2029,12 @@
         },
         "/": {
           "kb_size": "20754432",
-          "kb_used": "3002668",
-          "kb_available": "17751764",
+          "kb_used": "3006048",
+          "kb_available": "17748384",
           "percent_used": "15%",
           "total_inodes": "10382336",
-          "inodes_used": "115151",
-          "inodes_available": "10267185",
+          "inodes_used": "115205",
+          "inodes_available": "10267131",
           "inodes_percent_used": "2%",
           "fs_type": "rootfs",
           "mount_options": [
@@ -2499,13 +2499,13 @@
         "/dev/sda2,/": {
           "device": "/dev/sda2",
           "kb_size": "20754432",
-          "kb_used": "3002668",
-          "kb_available": "17751764",
+          "kb_used": "3006048",
+          "kb_available": "17748384",
           "percent_used": "15%",
           "mount": "/",
           "total_inodes": "10382336",
-          "inodes_used": "115151",
-          "inodes_available": "10267185",
+          "inodes_used": "115205",
+          "inodes_available": "10267131",
           "inodes_percent_used": "2%",
           "fs_type": "xfs",
           "mount_options": [
@@ -2921,8 +2921,8 @@
     "machine_id": "c05973d029ca9e78c8d143752c94a7e1",
     "sessions": {
       "by_session": {
-        "4": {
-          "session": "4",
+        "15": {
+          "session": "15",
           "uid": "1000",
           "user": "mmkundo2013",
           "seat": null
@@ -2931,7 +2931,7 @@
       "by_user": {
         "mmkundo2013": [
           {
-            "session": "4",
+            "session": "15",
             "uid": "1000",
             "user": "mmkundo2013",
             "seat": null
@@ -2939,7 +2939,7 @@
         ]
       }
     },
-    "ohai_time": 1591235565.3833401,
+    "ohai_time": 1591271026.5741577,
     "packages": {
       "tree": {
         "epoch": "0",
