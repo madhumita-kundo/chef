@@ -1,0 +1,77 @@
+[2020-06-05T01:03:19+00:00] WARN: No config file found or specified on command line, using command line options.
+[2020-06-05T01:03:19+00:00] INFO: Auto-discovered chef repository at /home/mmkundo2013
+[2020-06-05T01:03:19+00:00] INFO: Started chef-zero at chefzero://localhost:8889 with repository at /home/mmkundo2013
+  One version per cookbook
+
+[2020-06-05T01:03:19+00:00] INFO: Forking chef instance to converge...
+[2020-06-05T01:03:19+00:00] INFO: *** Chef 12.14.89 ***
+[2020-06-05T01:03:19+00:00] INFO: Platform: x86_64-linux
+[2020-06-05T01:03:19+00:00] INFO: Chef-client pid: 25731
+[2020-06-05T01:03:21+00:00] INFO: Setting the run_list to [#<Chef::RunList::RunListItem:0x00000003c8aed0 @version=nil, @type=:recipe, @name="apache">] from CLI options
+[2020-06-05T01:03:21+00:00] INFO: Run List is [recipe[apache]]
+[2020-06-05T01:03:21+00:00] INFO: Run List expands to [apache]
+[2020-06-05T01:03:21+00:00] INFO: Starting Chef Run for centos7.us-central1-a.c.nth-skyline-271419.internal
+[2020-06-05T01:03:21+00:00] INFO: Running start handlers
+[2020-06-05T01:03:21+00:00] INFO: Start handlers complete.
+[2020-06-05T01:03:21+00:00] INFO: HTTP Request Returned 404 Not Found: Object not found: 
+[2020-06-05T01:03:21+00:00] INFO: Loading cookbooks [apache@0.2.0]
+[2020-06-05T01:03:21+00:00] INFO: Processing yum_package[httpd] action install (apache::server line 7)
+[2020-06-05T01:03:28+00:00] INFO: Processing template[/var/www/html/index.html] action create (apache::server line 11)
+[0m
+================================================================================[0m
+[31mError executing action `create` on resource 'template[/var/www/html/index.html]'[0m
+================================================================================[0m
+
+[0mChef::Exceptions::FileNotFound[0m
+------------------------------[0m
+Cookbook 'apache' (0.2.0) does not contain a file at any of these locations:
+[0m  templates/centos-7.8.2003/index.html.rb
+[0m  templates/centos/index.html.rb
+[0m  templates/default/index.html.rb
+[0m  templates/index.html.rb
+[0m
+[0mThis cookbook _does_ contain: ['/root/.chef/local-mode-cache/cache/cookbooks/apache/templates/index.html.erb'][0m
+
+[0mResource Declaration:[0m
+---------------------[0m
+# In /root/.chef/local-mode-cache/cache/cookbooks/apache/recipes/server.rb
+[0m
+[0m 11: template '/var/www/html/index.html' do
+[0m 12: source  'index.html.rb'
+[0m 13: action :create
+[0m 14: end
+[0m 15: 
+[0m
+[0mCompiled Resource:[0m
+------------------[0m
+# Declared in /root/.chef/local-mode-cache/cache/cookbooks/apache/recipes/server.rb:11:in `from_file'
+[0m
+[0mtemplate("/var/www/html/index.html") do
+[0m  action [:create]
+[0m  retries 0
+[0m  retry_delay 2
+[0m  default_guard_interpreter :default
+[0m  source "index.html.rb"
+[0m  declared_type :template
+[0m  cookbook_name "apache"
+[0m  recipe_name "server"
+[0m  path "/var/www/html/index.html"
+[0mend
+[0m
+[0mPlatform:[0m
+---------[0m
+x86_64-linux[0m
+
+[0m[2020-06-05T01:03:28+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2020-06-05T01:03:28+00:00] ERROR: Running exception handlers
+[2020-06-05T01:03:28+00:00] ERROR: Exception handlers complete
+[2020-06-05T01:03:28+00:00] FATAL: Stacktrace dumped to /root/.chef/local-mode-cache/cache/chef-stacktrace.out
+[2020-06-05T01:03:28+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2020-06-05T01:03:28+00:00] ERROR: template[/var/www/html/index.html] (apache::server line 11) had an error: Chef::Exceptions::FileNotFound: Cookbook 'apache' (0.2.0) does not contain a file at any of these locations:
+  templates/centos-7.8.2003/index.html.rb
+  templates/centos/index.html.rb
+  templates/default/index.html.rb
+  templates/index.html.rb
+
+This cookbook _does_ contain: ['/root/.chef/local-mode-cache/cache/cookbooks/apache/templates/index.html.erb']
+[2020-06-05T01:03:28+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
