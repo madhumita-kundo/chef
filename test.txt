@@ -37,7 +37,7 @@ Cookbook 'apache' (0.2.0) does not contain a file at any of these locations:
 # In /root/.chef/local-mode-cache/cache/cookbooks/apache/recipes/server.rb
 [0m
 [0m 11: template '/var/www/html/index.html' do
-[0m 12: source  'index.html.rb'
+[0m 12: source  'index.html.rb' solution :changed the extension to erb
 [0m 13: action :create
 [0m 14: end
 [0m 15: 
