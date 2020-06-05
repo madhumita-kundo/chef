@@ -134,3 +134,22 @@ sudo chef-client -z -r "recipe[apache]"
 tree
 vi cookbooks/apache/recipes/default.rb
 sudo chef-client -z -r "recipe[apache]"
+ls
+tree
+ohai
+ohai ipaddress
+ohai hostname
+ohai memory/total
+tree
+vi cookbooks/apache/server.rb
+vi cookbooks/apache/recipes/server.rb
+sudo chef-client -z -r "recipe[apache]"
+vi cookbooks/apache/recipes/server.rb
+sudo chef-client -z -r "recipe[apache]"
+curl localhost
+ohai
+tree
+vi cookbooks/apache/metadata.rb
+git add .
+git commit -m "ohio/node lesson"
+git push origin master
